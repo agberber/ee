@@ -1,4 +1,4 @@
-@media (min-width: 40px) and (max-width: 650px) {
+@media (min-width: 40px) and (max-width: 800px) {
     .page1Wrapper {
         display: flex;
         flex-direction: column;
@@ -23,7 +23,7 @@
     }
 }
 
-@media (min-width: 650px) and (max-width: 820px) {
+@media (min-width: 801px) and (max-width: 820px) {
     .logo {
         width: 300px;
         height: 200px;
@@ -37,7 +37,7 @@
     }
 }
 
-@media (min-width: 820px) and (max-width: 1110px) {
+@media (min-width: 801px) and (max-width: 1200px) {
     .logo {
         width: 350px;
         height: 250px;
@@ -51,14 +51,5 @@
     }
 }
 
-@media (min-width: 650px) and (max-width: 820px) {
-    .logo {
-        margin-left: -6%;
-        margin-top: 8%;
 
-    }
-    .menu {
-        left: 28%;
-    }
-}
 

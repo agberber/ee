@@ -22,13 +22,14 @@ html, body {
 }
 .logo {
 /*     position: relative; */
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 240px;
     background-size: contain;
     background-image: url(./Img/logo.png);
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 7%;
+    margin-top: 8.7%;
+    margin-left: 3.5%;
     z-index: 2;
 }
 .menu {
@@ -36,8 +37,7 @@ html, body {
     left: 40%;
     top: -47%;
     list-style-type: none;
-/*     margin: 0;
-    padding: 0; */
+
 }
 .menu a {
     display: flex;
@@ -68,8 +68,7 @@ html, body {
     text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
     color: white;
     white-space: nowrap;
-    margin-bottom: 5%;
-    margin-left: 7%;
+    margin-left: 6%; 
     z-index: 3;
 
 } 
@@ -80,7 +79,7 @@ html, body {
     font-size: 2vw;
     font-weight: 400;
     text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
-/*     left: 0.2%; */
+    left: 0.2%;
     color: white;
     margin: 0;
 } 
