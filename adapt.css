@@ -1,20 +1,24 @@
 @media (min-width: 40px) and (max-width: 540px) {
     .page1Wrapper {
         display: flex;
-        align-content: space-around;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
 
     }
     .logo {
-        left: -17%;
-        top: 10%;
-
+        top: auto;
+        left: auto;
+        margin-top: 5%;
     }
 
     .menu {display:none;}
     .title {
+        top: auto;
+        left: auto;
+        margin-bottom: 5%;
         font-size: 6vw;
-        left: 3%;
     }
     .firstPageText {
         font-size: 4vw;
