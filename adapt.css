@@ -1,7 +1,14 @@
 @media (min-width: 40px) and (max-width: 540px) {
+    .page1Wrapper {
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+
+    }
     .logo {
         left: -17%;
         top: 10%;
+
     }
 
     .menu {display:none;}
@@ -13,6 +20,8 @@
         font-size: 4vw;
     }
 }
+
+
 /* @media (min-width: 1024px) and (max-width: 1440px) {
 .
 
@@ -20,7 +29,7 @@
     font-size: 35pt;
     top: 20%;
     left: 5%;
-} */ */
+} */ 
 
 
 
@@ -30,14 +39,3 @@
 }
 }
 /* 646,550,418,391 iphone ce 375X667 */
-@media (min-height: 400px) and (max-height: 800px) {
-    .logo {
-        left: -5%;
-        top: 15%;
-    }
-    .title {
-        font-size: 35pt;
-        top: 20%;
-        left: 5%;
-    }
-}
