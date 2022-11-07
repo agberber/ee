@@ -1,0 +1,72 @@
+.page3Wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.logoPage3-1 {
+    width: 500px;
+    height: 15vh;
+    background-size: contain;
+    background-image: url(./Img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6%;
+    left: -30%;
+/*     z-index: 2; */
+}
+.logoPage3-2 {
+    width: 500px;
+    height: 100%;
+    background-size: contain;
+    background-image: url(./Img/page3hex.png);
+    background-position: center;
+    background-repeat: no-repeat;
+/*     z-index: 2; */
+    position: relative;
+    top: -10%;
+}
+/* .artContainer {
+    display: flex;
+    flex-direction: row;
+} */
+.page3header {
+    position: relative;
+    top: 0%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+/* .plusContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 90%;
+}
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+} */
+#plus {
+    width: 7%;
+
+}
+.page3Article {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3vw;
+/*     padding-left: 15%;
+    margin-right: 1%; */
+}
+.page3 {
+    justify-content: space-between;
+    
+}
+
