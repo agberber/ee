@@ -1,0 +1,44 @@
+/* .page7Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #777F87 30%, #4A545F 30% 80%, #777F87 80%);
+
+} */
+#logoPage7 {
+    grid-row: 15 / span 3;
+    grid-column: 1 / span 4;
+}
+
+#page7hex1 {
+    width: 100%;
+    height: 100%;
+    grid-row: 3/ span 10;
+    grid-column: 2/ span 5;
+}
+#page7hex2 {
+    grid-row: 11 / span 9;
+    grid-column: 4 / span 5;
+    width: 100%;
+    height: 100%;
+}
+.txtContainer7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-column: 9 / span 10;
+    grid-row: 6 / span 12;
+    width: 51vw;
+    padding-left: 2%;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.h1Page7 {
+    grid-row: 3;
+    grid-column: 7 / span 14;
+    align-self: center;
+    font-size: 3vw;
+}

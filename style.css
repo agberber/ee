@@ -7,7 +7,11 @@ html, body {
 /*     display: flex;
     flex-direction: column; */
 } 
- 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
 .sectionLeft {
     display: flex;
     flex-direction: column;
@@ -37,4 +41,62 @@ html, body {
     background-color: #777F87;
 }
 
+.pageHeader {
+    text-align: justify;
+    color: white;
+    font-weight: 600;
+    font-size: 3vw;
+    text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
+}
+.flexWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #777F87 30%, #4A545F 30% 80%, #777F87 80%);
+
+}
+.gridWrapper {
+    display: grid;
+    grid-template-rows: repeat(20, 5vh);
+    grid-template-columns: repeat(20, 5vw);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #777F87 30%, #4A545F 30% 80%, #777F87 80%);
+
+}
+.logo {
+        background-size: contain;
+        background-image: url(./Img/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+
+}
+.logoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.headerH1 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    letter-spacing: 2pt;
+    text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
+    color: white;
+    white-space: nowrap;
+} 
+.headerH2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
+    color: white;
+}
+.headerH3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
+    color: white;
+}
 

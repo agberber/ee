@@ -8,32 +8,72 @@
     background: linear-gradient(to right, #777F87 30%, #4A545F 30% 80%, #777F87 80%);
 
 }
+#pHead6 {
+    position: relative;
+    left: 7%;
+/*       background-color: rgba(168, 164, 158, 0.616); */      
+}
 .txtContainer6 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+/*     margin-bottom: 5%; */
     width: 100%;
     height: 10%;
     background-color: rgba(235, 197, 140, 0.616);
 }
-.imgContainer6 {
+#page6txt1 {
+    position: relative;
+    top: -85%;
+    left: -2%;
+}
+#page6txt2 {
+    position: relative;
+    left: 15%;
+}
+.imgContainer6-1 {
+    position: relative;
+    top: -3%;
+    left: -5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 30%;
     background-color: rgba(168, 164, 158, 0.616);
 }
-.page6hex {
-    width: 15%;
+.imgContainer6-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+    background-color: rgba(168, 164, 158, 0.616);
 }
-hex6 {
-    width: 50%;
+.logoPage6 {
+    position: relative;
+    left: 5%;
+    top: 0%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-image: url(./Img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page6hex {
+    width: 20%;
 }
 
 .page6Article {
     color: white;
     font-weight: 400;
     text-align: center;
+}
+#pHead6 {
+    position: relative;
+    left: 7%;
+        
 }
