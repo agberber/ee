@@ -1,4 +1,5 @@
 @media (min-width: 0px) and (max-width: 768px) {
+
     /* Первая страница */
     .page1 {
         display: flex;
@@ -36,32 +37,52 @@
     grid-column: 2 /span 10  ;
     font-size: 6vw;
     }
-}
+
 /* Вторая страница */
 
-/* 
+.page2Main {
+    display: none;
+}
+.logoPage2-2 {
+    
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-image: url(./Img/page2hex.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+
+}
 .h1Page2 {
     position: relative;
-    left: -4%;
-    top: 22%;
-    font-size: 3vw;
+    left: -75%;
+    top: 5%;
+    font-size: 5vw;
 }
 .page2Article {
     text-align: justify;
     position: relative;
+    top: 20%;
     color: white;
     font-family: century school-book;
     font-weight: 400;
-    font-size: 2vw;
-    padding-left: 15%;
-    margin-right: 2%;
+    font-size: 4vw;
+    padding-left: 0%;
+    margin-right: 0%;
 }
 .p2ArtickePart1 {
-    margin-top: -3%;
+    margin-top: -40%;
+    left: -20%;
 }
 .p2ArtickePart2 {
-    margin-top: 3%;
+    margin-top:60%;
+    left: -15%;
 }
 .p2ArtickePart3 {
-    margin-top: 3%;
-} */
+    margin-top:100%;
+}
+
+
+} /* Конец адаптива */
