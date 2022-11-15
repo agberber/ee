@@ -74,19 +74,18 @@ display: flex;
 
 .logoPage2-1 {
     
-    width: 500px;
-    height: 200px;
+    width: 0%;
+    height: 0%;
     background-size: contain;
     background-image: url(./Img/logo.png);
     background-position: center;
     background-repeat: no-repeat;
-    top: 0%;
-    left: 0%;
+    margin-top: 0%;
 }
 .logoPage2-2 {
     
     width: 100%;
-    height: 100%;
+    height: 67%;
     background-size: contain;
     background-image: url(./Img/page2hex.png);
     background-position: center;

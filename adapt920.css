@@ -1,4 +1,4 @@
-@media (min-width: 769px) and (max-width: 920px) {
+@media (min-width: 768px) and (max-width: 920px) {
 
     /* Первая страница */
     .menuPage1 {
@@ -26,6 +26,32 @@
 /* Вторая страница */
 .page2Mobile {
     display: none;
+}
+.page3Article {
+    padding-left: 10%;
+    font-size: 2vw;
+}
+.logoPage3-1 {
+    width: 100px;
+    height: 20vh;
+    background-size: contain;
+    background-image: url(./Img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6%;
+    left: -30%;
+
+}
+.logoPage3-2 {
+    width: 350px;
+    height: 100%;
+    background-size: contain;
+    background-image: url(./Img/page3hex.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -10%;
 }
 
 

@@ -1,4 +1,4 @@
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
 
     /* Первая страница */
     .menuPage1 {
@@ -20,6 +20,11 @@
 /* Вторая страница */
 .page2Mobile {
     display: none;
+}
+/* Третья страница */
+.page3Article {
+    padding-left: 10%;
+    font-size: 2vw;
 }
 
 
