@@ -2,9 +2,6 @@
 .page2Mobile {
 flex-direction: row;
 display: flex;
-
-
-
 }
 .asideImg {
     background-size: cover;

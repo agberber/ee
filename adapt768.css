@@ -35,8 +35,11 @@
 .page2Main {
     display: none;
 }
-.logoPage2-2 {
-    
+.page2Mobile {
+    flex-direction: row;
+    display: flex;    
+    }
+.logoPage2-2 {    
     width: 50%;
     height: 100%;
     background-size: contain;
@@ -96,7 +99,6 @@
 .h1Page3 {
     font-size: 3.5vw;
     margin-left: -30%;
-
 }
 
 .page3Article {
@@ -104,6 +106,10 @@
     font-size: 3vw;
     width: 85%;
     z-index: 1;
+}
+/* Четвёртая страница */
+.page4 {
+    display: none;
 }
 
 } /* Конец адаптива */

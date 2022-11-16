@@ -1,6 +1,6 @@
 
 .logoPage3-1 {
-    width: 500px;
+    width: 150px;
     height: 25vh;
     background-size: contain;
     background-image: url(./Img/logo.png);
@@ -9,7 +9,6 @@
     position: relative;
     top: 6%;
     left: -30%;
-
 }
 .logoPage3-2 {
     width: 500px;
@@ -24,16 +23,15 @@
 
 #plus {
     width: 7%;
-
 }
 .page3Article {
     display: flex;
     align-items: center;
-    justify-content: space-between
     text-align: justify;
     color: white;
     font-weight: 400;
     font-size: 1.3vw;
+
 
 }
 .page3 {
@@ -43,6 +41,7 @@
 }
 .h1Page3 {
     font-size: 3vw;
+    margin-top: 2%;
 
 }
 
