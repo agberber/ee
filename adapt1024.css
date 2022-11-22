@@ -25,7 +25,7 @@
 /* Третья страница */
 .page3Article {
     padding-left: 10%;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 .logoPage3-1 {
     width: 100px;
@@ -50,37 +50,10 @@
     top: -10%;
 }
 /* Четвёртая страница */
-.page4Header {
-    text-align: justify;
-    color: white;    
-    font-family: school-book;
-    font-weight: 500;
-    font-size: 3vw;
-    text-shadow: 5px 5px 5px rgba(100, 96, 96, 0.5);
+.page4Mobile {
+    display: none;
 }
-.imgContainer4-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: relative;
-    left: -5%;
-    width: 80%;
-    height: 30%;
-    background-color: rgba(240, 248, 255, 0.3);
-    padding-left: 1%;
-    padding-top: 0%;
-}
-.page4Article {
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    color: white;
-    font-weight: 400;
-    font-size: 2vw;
-}
-#plus5 {
-    width: 15%;
-}
+
 
 
 
@@ -89,4 +62,4 @@
 
 
     
-}
+} /* Конец адаптива */

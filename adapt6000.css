@@ -4,6 +4,11 @@
 .page2Mobile {
     display: none;
 }
+/* Четвёртая страница */
+.page4Mobile {
+    display: none;
+}
+
 }
 @media (min-width: 1280px ) and (max-width: 1480px) {
 
@@ -14,6 +19,16 @@
 /* Третья страница */
 .page3Article {
     padding-left: 5%;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
+/* Четвёртая страница */
+.page4Mobile {
+    display: none;
 }
+
+
+
+
+
+
+} /* Конец адаптива */

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to right, #777F87 30%, #4A545F 30% 80%, #777F87 80%);
+ /*    background: linear-gradient(to right, #777F87 30%, #4A545F 30% 80%, #777F87 80%); */
 
 }
 
@@ -36,6 +36,7 @@
 .txtContainer4 {
     display: flex;
     width: 70%;
+/*     height: 20%; */
     margin-top: -5%;
 }
 .page4Header {

@@ -26,13 +26,17 @@
     padding-left: 10%;
     font-size: 2vw;
 }
-
-
-
-
-
-
-
-
+/* Четвёртая страница */
+.page4Mobile {
+    display: none;
 }
+
+
+
+
+
+
+
+
+} /* Конец адаптива */
 
