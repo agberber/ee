@@ -27,17 +27,12 @@
     padding-left: 10%;
     font-size: 2.5vw;
 }
+/* Третья страница */
 .logoPage3-1 {
-    width: 100px;
-    height: 20vh;
-    background-size: contain;
-    background-image: url(./Img/logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    width: 130px;
+    height: 25vh;
     top: 6%;
-    left: -30%;
-
+    left: -18%;
 }
 .logoPage3-2 {
     width: 400px;

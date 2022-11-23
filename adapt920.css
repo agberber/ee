@@ -35,15 +35,10 @@
     font-size: 2.5vw;
 }
 .logoPage3-1 {
-    width: 100px;
+    width: 120px;
     height: 20vh;
-    background-size: contain;
-    background-image: url(./Img/logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
     top: 6%;
-    left: -20%;
+    left: -15%;
 
 }
 .logoPage3-2 {
