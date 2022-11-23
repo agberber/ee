@@ -32,7 +32,7 @@
 
 /* Вторая страница */
 
-.page2Main {
+/* .page2Main {
     display: none;
 }
 .page2Mobile {
@@ -78,9 +78,9 @@
 .p2ArtickePart3 {
     margin-top:25%;
     left: 0%;
-}
+} */
 /* Третья страница */
-.logoPage3-1 {
+/* .logoPage3-1 {
     display: none;
 }
 .logoPage3-2 {
@@ -108,8 +108,8 @@
     z-index: 1;
 }
 /* Четвёртая страница */
-.page4 {
-    display: none;
-}
+/* .page4 {
+    display: none; */
+} */
 
 } /* Конец адаптива */
