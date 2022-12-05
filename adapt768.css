@@ -43,6 +43,9 @@
 .p2MRight {
     width: 80%;
 }
+.logoPage2-1{
+    display: none;
+}
 .logoPage2-2 {    
     width: 80%;
     height: 100%;
@@ -73,12 +76,12 @@
     margin-right: 0%;
 }
 .p2ArtickePart1 {
-    margin-top: -2vh;
-    left: -20%;
+    margin-top: -20vh;
+    left: -25%;
 }
 .p2ArtickePart2 {
     margin: top 2vh;;
-    left: -15%;
+    left: -25%;
 }
 .p2ArtickePart3 {
     margin: top 2vh;;
@@ -156,6 +159,9 @@
     }
 .p2MRight {
     width: 80%;
+}
+.logoPage2-1{
+    display: none;
 }
 .logoPage2-2 {    
     width: 50%;
