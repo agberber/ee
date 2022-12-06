@@ -1,7 +1,7 @@
 
 .h1Page6 {
-    grid-column: 7 / span 7;
-    grid-row: 1 / span 7;
+    grid-column: 7 / span 12;
+    grid-row: 1 / span 1;
     font-size: 3vw;
 }
 .page6hex {
@@ -9,34 +9,35 @@
     height: 100%;
 }
 #hex6-mama {
-    grid-column: 2 / span 4;
-    grid-row: 4 / span 9;
+    grid-column: 2 / span 5;
+    grid-row:4 / span 9;
+
 }
 #h3Mama {
     grid-column: 2 / span 4;
-    grid-row: 2 / span 8;
+    grid-row: 2 / span 2;
 }
 #hex6-child {
-    grid-column: 7 / span 4;
+    grid-column: 7 / span 5;
     grid-row: 4 / span 9;
 }
 #h3Child {
     grid-column: 10 / span 4;
-    grid-row: 3 / span 8;
+    grid-row: 3 / span 1;
 }
 #hex6-heater {
     margin-left: 7%;
-    grid-column: 12 / span 5;
+    grid-column: 12 / span 6;
     grid-row: 4 / span 9;
     width: 90%;
 }
 #h3Heater {
-    grid-column: 17 / span 5;
+    grid-column: 17 / span 3;
     grid-row: 8;
     width: 90%;
 }
 #hex6-pig {
-    grid-column: 4 / span 4;
+    grid-column: 4 / span 5;
     grid-row: 11 / span 9;
 }
 #h3Pig {
@@ -44,7 +45,7 @@
     grid-row: 20;
 }
 #hex6-stop {
-    grid-column: 10 / span 4;
+    grid-column: 10 / span 5;
     grid-row: 11 / span 9;
 }
 #h3Stop {
@@ -52,7 +53,7 @@
     grid-row: 20;
 }
 #hex6-worker {
-    grid-column: 16 / span 4;
+    grid-column: 16 / span 5;
     grid-row: 11 / span 9;
 
 }
